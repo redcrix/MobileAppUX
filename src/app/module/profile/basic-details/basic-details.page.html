@@ -1,0 +1,85 @@
+<ion-content class="ion-content">
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start" (click)="goBack()">
+        <ion-icon name="arrow-back" class="top_icon"></ion-icon>
+      </ion-buttons>
+      <ion-title>Personal Information</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+    <div class="personal-info-text"></div>
+    <div class="gray-bg">
+      <div class="info-card">
+ 
+        <ion-row>
+          <ion-col style="text-align: center;">
+            <h1 class="text_b"></h1>
+          </ion-col>
+        </ion-row>
+        <form #form="ngForm" (ngSubmit)="onSave(form.form)" novalidate>
+          <div class="space_inner">
+            
+            <div class="input-label">
+              <ion-label>
+                <p class="l_text">Name</p>
+              </ion-label>
+              <div class="input-bg">
+              <ion-input name="name" [(ngModel)]="data.name" type="text" #name class="basic-info-text" style="    
+                margin-bottom: -10px; 
+             " required></ion-input>
+                  </div>
+            </div>
+
+            <div class="input-label">
+              <ion-label>
+                <p class="l_text">Gender</p>
+              </ion-label>
+              <div class="bg btn">
+          <button class="btn-gender male">
+            Male
+          </button>
+          <button class="btn-gender male">
+            Female
+          </button>
+              </div>
+            </div>
+       
+            <div class="input-label">
+              <ion-label>
+                <p class="l_text">Email Id</p>
+              </ion-label>
+              <div class="input-bg">
+              <ion-input name="email" [(ngModel)]="data.email" type="text" #mail class="basic-info-text" style="    
+        margin-bottom: -10px; 
+        " required></ion-input>
+              </div>
+            </div>
+
+            <div class="input-label">
+              <ion-label>
+                <p class="l_text">Date of Birth</p>
+              </ion-label>
+              <div class="input-bg">
+              <ion-datetime name="dob" [(ngModel)]="data.dob" display-format="DD MMM YYYY" required></ion-datetime>
+              <ion-icon name="calendar-outline" slot="end" class="calender_icon"></ion-icon>
+                </div>
+            </div>
+
+          </div>
+
+          <ion-row>
+            <ion-col style="text-align:center; margin-bottom: -12px;">
+              <!-- <button class="save-btn" (click)="onSave()">
+                Save and Continue
+              </button> -->
+              <button class="save-btn" ion-button type="submit" block>Save and Continue</button>
+
+            </ion-col>
+          </ion-row>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

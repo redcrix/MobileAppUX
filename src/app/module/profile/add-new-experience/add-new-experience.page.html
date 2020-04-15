@@ -1,0 +1,123 @@
+<ion-content class="ion-content">
+
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start" (click)="goBack()">
+        <ion-icon name="arrow-back" class="top_icon"></ion-icon>
+      </ion-buttons>
+      <ion-title>Experiences</ion-title>
+      <ion-buttons slot="end" (click)="skip()">
+        <p class="skip__">Skip</p>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+
+    <div class="spacing-extra"></div>
+
+    <div class="gray-bg">
+
+      <div class="info-card">
+
+
+        <p class="add_new">Add New Experience</p>
+
+
+        <div class="input-label">
+          <ion-label>
+            <p class="l_text">Experience</p>
+          </ion-label>
+          <div class="input-bg">
+          <ion-input name="text" class="basic-info-text" style="    
+          margin-bottom: -10px; 
+          font-weight: bold;" required></ion-input>
+          </div>
+        </div>
+
+        <!-- <div class="input-label">
+          <ion-label>
+            <p class="l_text">Date</p>
+          </ion-label>
+
+          <div class="input-bg">
+            <ion-datetime pickerFormat="D/M/YYYY" [(ngModel)]="from_date"></ion-datetime>
+            <ion-icon color="primary" name="calendar-outline" slot="end" class="calender_icon"></ion-icon>
+          </div>
+        </div> -->
+
+        <div class="input-label">
+          <ion-label>
+            <p class="l_text">Description</p>
+          </ion-label>
+          <div class="input-bg">
+          <ion-textarea clearOnEdit="true"></ion-textarea>
+          </div>
+        </div>
+
+        <div class="input-label">
+          <ion-label>
+            <p class="l_text">Links (max 3)</p>
+          </ion-label>
+          <div class="input-bg">
+          <ion-input name="text" class="basic-info-text" style="    
+      margin-bottom: -10px; 
+      font-weight: bold;" required></ion-input>
+      
+<ion-icon name="add-outline"  slot="end" class="icon_Small"></ion-icon>
+<!-- <div class="plus_outine" slot="end">
+  <ion-icon name="add-outline" class="icon_Small"></ion-icon>
+</div> -->
+
+          </div>
+
+        
+
+          <!-- <ion-icon name="plus" slot="end" class="calender_icon"></ion-icon> -->
+
+        </div>
+
+        <ion-row>
+          <ion-col>
+            <div class="slot_right">
+              <p class="add-exp">Add Experience
+
+              </p>
+
+              <div class="plus_outine" (click)="add_Work_Exp()">
+                <ion-icon name="add-outline" class="icon_"></ion-icon>
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+
+
+
+        <div class="work_exp_name" *ngIf="new_work_exp">
+          <div class="label_work">
+
+            <ion-input name="text" class="basic-info-text" placeholder="Work Experience Name"></ion-input>
+
+            <ion-icon name="pencil" color="primary" slot="end" class="pencil_icon"></ion-icon>
+            <ion-icon name="trash" color="primary" slot="end" class="trash_icon"></ion-icon>
+
+          </div>
+        </div>
+
+
+        <ion-row>
+          <ion-col style="text-align:center; margin-bottom: -12px;">
+            <button class="save-btn" (click)="SaveAndContinue()">
+              Save and Continue
+            </button>
+          </ion-col>
+        </ion-row>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "hour4u",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "99f7c286"
+}

@@ -1,0 +1,97 @@
+<ion-content class="ion-content">
+
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start" (click)="goBack()">
+        <ion-icon name="arrow-back" class="top_icon"></ion-icon>
+      </ion-buttons>
+      <ion-title>Where you live ?</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+
+    <div class="spacing-extra"></div>
+
+  <div class="gray-bg">
+
+  <div class="info-card">
+
+    <div>
+
+      <div class="input-label">
+        <ion-label>
+          <p class="l_text">Address</p>
+        </ion-label>
+        <p class="get_address" style="font-weight: bold;">Noida, Sector 16</p>
+    
+      </div>
+
+ 
+
+      <div class="search_">
+  
+        <ion-row>
+          <ion-col col-md-10 style="padding-left: 15px;">
+            <ion-input type="text" placeholder="Search"  #name class="basic-info-text" style="padding-left: 8px;" >
+           </ion-input>
+          </ion-col>
+          <ion-col col-md-2>
+            <ion-icon color="primary" name="search" class="search_icon"></ion-icon>
+          
+          </ion-col>
+       </ion-row>
+
+    
+      </div>
+
+
+        <div id="map" #map style="
+        height: 166px;
+        width:94%;
+        margin-top: 13px;"></div>
+
+
+      <p class="allow_access">
+        <ion-checkbox color="primary" mode="md"
+        style="
+        top: 3px;
+        right: 2px;"></ion-checkbox>
+        I allow hour4u to access my location
+      </p>
+
+
+
+
+      <!-- <ion-row>
+        <ion-col style="
+          text-align:center;
+          ">
+                <div class="support-label">
+                  <div class="support_outine">
+                    <ion-icon name="headset-outline" class="icon_ss"></ion-icon>
+                    <ion-icon name="camera-outline"  ></ion-icon>
+                  </div>
+            
+                </div>
+  
+        </ion-col>
+      </ion-row>
+     -->
+
+      <ion-row>
+        <ion-col style="text-align:center;margin-bottom: -12px;">
+          <button class="save-btn" (click)="SaveAndContinue()">
+            Save and Continue
+          </button>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+</ion-content>
+

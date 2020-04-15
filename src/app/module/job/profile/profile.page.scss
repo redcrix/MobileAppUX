@@ -1,0 +1,453 @@
+ion-content
+{
+
+
+    --background: #EFEFEF;
+
+    .half_bg {
+        background: #57C7B6;
+    
+        height: 23%;
+ 
+            margin-top: -5px;
+
+    }
+
+
+
+
+    ion-icon.ios.ion-color.ion-color-primary.hydrated {
+        font-size: 25px;
+        margin-top: -33px;
+    }
+
+    ion-title.md.title-default.hydrated {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        margin-top: 3px;
+    }
+
+    ion-title.ios.title-default.hydrated {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        margin-top: 3px;
+    }
+
+  
+   // extra spacing
+
+    
+
+
+    .header_ {
+        display: inline-flex;
+    }
+
+
+    .input-label {
+     
+        padding-bottom: 9px;
+        padding-top: 13px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .scroll-content {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        will-change: scroll-position;
+        contain: size style layout;
+        display: flex;             // added by me
+        flex-direction: column;    // added by me
+    }
+
+
+  
+
+    .info-card
+    {
+        background: white;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+        padding-top: 3px;
+        box-shadow: 1px 7px 9px 0px #e8e8e8;
+        border-bottom-right-radius: 13px;
+        border-bottom-left-radius: 13px;
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+
+    .info-card.progress {
+        margin-top: -46px;
+        margin-bottom: 11px;
+        height: 100px;
+        text-align: center;
+    }
+
+
+
+    input.native-input.sc-ion-input-ios {
+        font-weight: bold !important;
+    }
+    input.native-input.sc-ion-input-md {
+        font-weight: bold !important;
+    }
+
+    img.icon_camera {
+        height: 36px;
+    }
+    
+
+    ion-toolbar.in-toolbar.ios.hydrated {
+        --background: #57C7B6;
+    }
+
+    ion-toolbar.in-toolbar.md.hydrated {
+        --background: #57C7B6;
+    }
+
+   .top_icon {
+        font-size: 25px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-left: 12px;
+        color: white;
+    }
+
+
+    .save-btn{
+        width: 70%;
+        margin-top: 5%;
+        background-color: #57C7B6;
+        color: white;
+        height: 42px;
+        font-weight: bold;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 2px solid;
+        padding-bottom: -61px !important;
+        margin-bottom: -30px;
+
+    }
+
+
+
+    @media only screen and (max-height: 500px) {
+        .half_bg {
+            height: 28% !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 330px) {
+        .align_reviews {
+            display: flex;
+             float: right;
+        }
+    
+        .col_class{
+            margin-top: -150px;
+        }
+
+    }
+
+
+
+ 
+
+  
+
+    p.skip__ {
+        padding: 1px;
+        margin-right: 7px;
+        border-radius: 20px;
+        height: 35px;
+        width: 49px;
+        padding-top: 8px;
+        font-size: 13px;
+        padding-right: 9px;
+        color: white;
+        color: white !important;
+        font-weight: bold;
+        float: right;
+        background: #80d6c9;
+        padding-left: 9px;
+        padding-top: 9px;
+
+    }
+
+
+
+
+
+    .input-bg {
+        background: #FAFAFA;
+        border-radius: 5px;
+    }
+
+
+
+
+    .category_box {
+
+        font-size: 11px;
+    }
+
+
+
+    span.label_ {
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
+    .input_time {
+        margin-top: 18px;
+        background: #FAFAFA;
+        width: 131px;
+        height: 24px;
+        margin-top: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 3px;
+    }
+
+    p.to_from_time {
+        padding-top: 5px;
+    }
+
+    img.profile_img {
+        height: 60px;
+        border-radius: 60px;
+        width: 60px;
+        margin-left: 18px;
+        margin-top: 15px;
+    }
+
+    p.name_ {
+        margin-top: 34px;
+        font-size: 14px;
+        color: #ffffffc9 !important;
+    }
+
+    p.name_ {
+        margin-top: 10px;
+        font-size: 17px;
+        color: #ffffffc9 !important;
+        margin-bottom: 6px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 11px;
+    }
+
+
+
+    .align_loc {
+     
+        margin-left: 11px;
+    }
+
+    p.name_location {
+        margin-top: 2px;
+        font-size: 14px;
+        color: #ffffffc9 !important;
+        margin-left: 1px;
+        text-align: center;
+        
+    }
+
+    ion-icon.notification_icon.md.hydrated {
+        margin-right: 12px;
+        margin-top: -20px;
+        font-size: 26px;
+        color: white;
+    }
+
+    ion-icon.notification_icon.ios.hydrated {
+        margin-right: 12px;
+        margin-top: -20px;
+        font-size: 26px;
+        color: white;
+    }
+
+  
+    p.phone_no {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 11px;
+        margin-bottom: -40px;
+        color: white !important;
+        font-size: 13px;
+    }
+
+    p._p_subTitle {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    p._p_result {
+        text-align: center;
+        margin-left: -17px;
+        color: #57C7B6 !important;
+    }
+
+
+    ion-button.share_.ion-color.ion-color-primary.md.button.button-solid.ion-activatable.ion-focusable.hydrated {
+        --border-radius: 60px;
+        font-size: 12px;
+        text-transform: none;
+        width: 145px;
+        margin-bottom: 9px;
+        height: 39px;
+    }
+
+    ion-button.share_.ion-color.ion-color-primary.ios.button.button-solid.ion-activatable.ion-focusable.hydrated {
+        --border-radius: 60px;
+    font-size: 12px;
+    text-transform: none;
+    width: 145px;
+    margin-bottom: 9px;
+    height: 39px;
+    }
+
+    button.preferences-btn.Non_active {
+        border-radius: 60px;
+        height: 37px;
+        padding-left: 13px;
+        padding-right: 13px;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        background: #23594C;
+        color: white;
+    }
+
+    button.preferences-btn {
+        border-radius: 60px;
+        height: 37px;
+        padding-left: 13px;
+        padding-right: 13px;
+        margin-left: 14px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        background: #C7D9D6;
+    }
+
+    p.p_ {
+        color: #57C7B6 !important;
+        font-weight: bold;
+        margin-left: 24px;
+        font-size: 17px;
+    }
+
+    button.edit_btn {
+        float: right;
+        margin-top: -28px;
+        margin-right: 10px;
+        background: #57C7B6;
+        padding: 3px;
+        border-radius: 60px;
+        padding-left: 12px;
+        height: 31px;
+        margin-top: -43px;
+        padding-right: 12px;
+        color: white;
+        font-weight: bold;
+    }
+
+    p.rate_p__ {
+        margin-left: 40%;
+        color: #57C7B6;
+    }
+
+    p.rate_p__ {
+        margin-left: 40%;
+
+        color: #57C7B6 !important;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    p.title__ {
+        margin-left: 21px;
+        font-size: 15px;
+    }
+
+    p.location_p {
+        margin-left: 31px;
+        font-size: 15px;
+        padding-bottom: 13px;
+    }
+
+    .info-card.JobLocation {
+        margin-top: 12px;
+    }
+
+    .align_reviews {
+        display: flex;
+        float: right;
+    
+    }
+
+    ion-icon.star-Icon.md.hydrated {
+        margin-top: -2px;
+        color: white;
+    }
+
+    ion-icon.star-Icon.ios.hydrated {
+        margin-top: -2px;
+        color: white;
+    }
+
+
+  
+    p.point_rate {
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 14px;
+        color: white !important;
+        margin-top: 0px;
+        background: #75dacb !important;
+        border-radius: 3px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    ion-icon.check_icon.md.hydrated {
+        background: white;
+        color: #57C7B6 !important;
+        border-radius: 60px;
+        margin-left: -14px;
+        height: 16px;
+        width: 19px;
+        border: 1px solid #57C7B6;
+    }
+
+
+    ion-icon.check_icon.ios.hydrated {
+        background: white;
+        color: #57C7B6 !important;
+        border-radius: 60px;
+        margin-left: -14px;
+        height: 16px;
+        width: 19px;
+        border: 1px solid #57C7B6;
+    }
+
+    p.job_preference_select {
+        margin-left: 25px;
+    }
+   
+}
+
+
+

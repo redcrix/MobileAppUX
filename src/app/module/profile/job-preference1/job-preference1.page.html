@@ -1,0 +1,99 @@
+<ion-content class="ion-content">
+
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start" (click)="goBack()">
+        <ion-icon name="arrow-back" class="top_icon"></ion-icon>
+      </ion-buttons>
+      <ion-title>Job Preferences</ion-title>
+      <ion-buttons slot="end" (click)="skip()">
+        <p class="skip__">Skip</p>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+
+    <div class="spacing-extra"></div>
+
+    <div class="gray-bg">
+
+      <div class="info-card">
+
+
+        <p class="p_jobType">Job Type <span class="max_"> Max 5</span></p>
+
+        <div class="search_">
+        <ion-row>
+          <ion-col col-md-10 style="padding-left: 15px;">
+            <ion-input type="text" placeholder="Add Job Category"  #name class="basic-info-text" style="padding-left: 8px;" >
+           </ion-input>
+          </ion-col>
+          <ion-col col-md-2>
+            <ion-icon color="primary" name="search" class="search_icon"></ion-icon>
+          
+          </ion-col>
+       </ion-row>
+        </div>
+
+        <div class="category_box" >
+          <div class="label_inner">
+
+            <div class="icon_sets">
+             <img src="../../../../assets/crea/Assi/icons/jobs.svg" class="job_category">
+              <p class="title_sets">Data Entry</p>
+              <p class="category_">
+                Category: typing
+              </p>
+            </div>
+            <ion-icon name="add-outline" color="primary" slot="end" class="expand-icon" (click)="categoryExpand()"></ion-icon>
+
+          </div>
+        </div>
+
+        <div class="category_box Expanded" *ngIf="CategoryExpand">
+          <div class="label_inner Expanded">
+
+            <p class="job_preference_select">
+            <ion-checkbox color="primary" mode="md"
+            style="
+            top: 3px;
+            right: 2px;"></ion-checkbox>
+            <span class="label_">Typing</span>
+          </p>
+
+          <p class="job_preference_select">
+            <ion-checkbox color="primary" mode="md"
+            style="
+            top: 3px;
+            right: 2px;"></ion-checkbox>
+            <span class="label_">Typing</span>
+          </p>
+
+          <p class="job_preference_select">
+            <ion-checkbox color="primary" mode="md"
+            style="
+            top: 3px;
+            right: 2px;"></ion-checkbox>
+            <span class="label_">Typing</span>
+          </p>
+          </div>
+        </div>
+
+
+        <ion-row>
+          <ion-col style="text-align:center; margin-bottom: -12px;">
+            <button class="save-btn" (click)="SaveAndContinue()">
+              Save and Continue
+            </button>
+          </ion-col>
+        </ion-row>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+</ion-content>

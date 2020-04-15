@@ -1,0 +1,85 @@
+<ion-content class="ion-content">
+
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start" (click)="goBack()">
+        <ion-icon name="arrow-back" class="top_icon"></ion-icon>
+      </ion-buttons>
+      <ion-title>Profile Picture</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+
+    <div class="spacing-extra"></div>
+
+  <div class="gray-bg">
+
+  <div class="info-card">
+
+
+    <ion-row>
+      <ion-col style="
+        text-align:center;
+        ">
+              <div class="camera-label">
+                <div class="camera_outine">
+                  <ion-icon name="camera-outline"  class="icon_camera"></ion-icon>
+                </div>
+                <p class="tap_" style="color: #57C7B6;">Tap to Upload Your Photo</p>
+              </div>
+
+      </ion-col>
+    </ion-row>
+    
+
+
+      <div class="other_board">
+        <p class="other-photos-text">Other Photos: <span class="text_light">(Max 4)</span></p>
+      
+        <ion-row class="pics-upload">
+          <ion-col class="col-upload-pic">
+            <ion-icon name="add-outline" color="primary"></ion-icon>
+          </ion-col>
+          <ion-col class="col-upload-pic">
+            <ion-icon name="add-outline" color="primary"></ion-icon>
+          </ion-col>
+        </ion-row>
+      
+        <ion-row class="pics-upload">
+          <ion-col class="col-upload-pic">
+            <ion-icon name="add-outline" color="primary"></ion-icon>
+          </ion-col>
+          <ion-col class="col-upload-pic">
+            <ion-icon name="add-outline" color="primary"></ion-icon>
+          </ion-col>
+        </ion-row>
+      
+      </div>
+
+      <p class="allow_access">
+        <ion-checkbox color="primary" mode="md" style="
+        top: 3px;
+        right: 2px;" ></ion-checkbox>
+        I allow hour4u to access my gallery and upload photos
+      </p>
+
+
+
+
+      <ion-row>
+        <ion-col style="text-align:center;">
+          <button class="save-btn" (click)="SaveAndContinue()">
+            Save and Continue
+          </button>
+        </ion-col>
+      </ion-row>
+
+
+
+</div>
+</div>
+</div>
+
+
+</ion-content>

@@ -1,0 +1,322 @@
+ion-content
+{
+
+
+    --background: #EFEFEF;
+
+    .half_bg {
+        background: #57C7B6;
+        margin-top: -40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      
+    }
+    
+    ion-icon.icon_set.ios.ion-color.ion-color-primary.hydrated {
+        font-size: 22px;
+        margin-top: -2px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    ion-icon.filter_icon.md.hydrated {
+        float: right;
+        margin-top: -40px;
+        color: white !important;
+        margin-right: 26px;
+        font-size: 25px;
+    }
+    ion-icon.filter_icon.ios.hydrated {
+        float: right;
+        margin-top: -40px;
+        color: white !important;
+        margin-right: 26px;
+        font-size: 25px;
+    }
+
+    ion-icon.icon_set.md.ion-color.ion-color-primary.hydrated {
+        font-size: 22px;
+        margin-top: -2px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    ion-title.md.title-default.hydrated {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        margin-top: 3px;
+    }
+
+    ion-title.ios.title-default.hydrated {
+        text-align: center;
+        font-size: 19px;
+        color: white;
+        margin-top: 3px;
+    }
+
+  
+   // extra spacing
+
+    .spacing-extra {
+        padding-top: 36px;
+        padding-left: 20px;
+    }
+
+
+
+    .header_ {
+        display: inline-flex;
+    }
+
+
+    .input-label {
+     
+        padding-bottom: 9px;
+        padding-top: 13px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .scroll-content {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        will-change: scroll-position;
+        contain: size style layout;
+        display: flex;             // added by me
+        flex-direction: column;    // added by me
+    }
+
+    p.other-photos-text {
+        margin-left: 22px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    span.text_light {
+        font-weight: 100;
+        color: gray;
+        font-size: 13px;
+    }
+
+    .info-card
+    {
+        background: white;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding-top: 3px;
+        box-shadow: 1px 7px 9px 0px #e8e8e8;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: 12px;
+        margin-right: 12px;
+
+    }
+
+  
+
+    input.native-input.sc-ion-input-ios {
+        font-weight: bold !important;
+    }
+    input.native-input.sc-ion-input-md {
+        font-weight: bold !important;
+    }
+
+    img.icon_camera {
+        height: 36px;
+    }
+    
+
+    ion-toolbar.in-toolbar.ios.toolbar-title-default.hydrated {
+        --background: #57C7B6;
+    }
+
+    ion-toolbar.in-toolbar.md.toolbar-title-default.hydrated {
+        --background: #57C7B6;
+    }
+
+   .top_icon {
+        font-size: 25px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-left: 12px;
+        color: white;
+    }
+
+
+
+
+
+  
+
+    p.skip__ {
+        background: #57C7B6;
+        padding: 2px;
+        margin-right: 17px;
+        border-radius: 20px;
+        height: 35px;
+        width: 50px;
+        padding-top: 8px;
+        font-size: 13px;
+        padding-right: 9px;
+        color: white;
+        color: white !important;
+        font-weight: bold;
+    }
+
+
+
+
+
+    .input-bg {
+        background: #FAFAFA;
+        border-radius: 5px;
+    }
+
+    textarea.native-textarea.sc-ion-textarea-ios {
+        background: #FAFAFA;
+        border-radius: 5px;
+    }
+
+   
+    p.p_jobType {
+        font-weight: bold;
+        margin-left: 19px;
+        margin-top: 17px;
+        font-size: 13px;
+    }
+
+    img.job_category {
+        height: 32px;
+        float: left;
+    }
+
+    span.max_ {
+        font-size: 10px;
+        margin-left: 6px;
+        color: gray;
+        font-weight: 100;
+    }
+
+
+
+    p.category_ {
+        margin-left: 45px;
+        margin-top: -9px !important;
+        font-size: 10px;
+        color: gray !important;
+    }
+
+    p.title_sets {
+     margin-top: 19px;
+     font-size: 13px;
+     overflow: hidden;
+     height: 14px;
+    }
+
+    .search_ {
+        background: #52B2A9;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 3px;
+        margin-top: 35px;
+        color: white;
+        width: 76%;
+    }
+
+    ion-icon.search_icon.ios.ion-color.ion-color-primary.hydrated {
+        float: right;
+        margin-top: 10px;
+        font-size: 21px;
+        margin-right: 10px;
+    }
+
+    ion-icon.search_icon.md.ion-color.ion-color-primary.hydrated {
+        float: right;
+        margin-top: 10px;
+        font-size: 21px;
+        margin-right: 10px;
+    }
+    
+    .icon_sets {
+        margin-left: 11px;
+    }
+
+    p.price {
+        float: right;
+        color: #57C7B6 !important;
+        font-weight: bold;
+        font-size: 27px;
+        margin-right: 15px;
+        margin-top: 16px;
+    }
+
+
+
+   
+}
+
+
+ion-icon.notification_icon.md.hydrated {
+    margin-right: 22px;
+    margin-top: 5px;
+    font-size: 23px;
+    color: white;
+}
+
+ion-icon.notification_icon.ios.hydrated {
+    margin-right: 22px;
+    margin-top: 5px;
+    font-size: 23px;
+    color: white;
+}
+
+.category_box {
+    background: white;
+    padding-left: 11px;
+    margin-left: 17px;
+    margin-right: 17px;
+    border-radius: 17px;
+    padding-bottom: 10px;
+}
+
+ion-icon.filter_icon.ios.hydrated {
+    float: right;
+    margin-top: -72px;
+    margin-right: 26px;
+    font-size: 24px;
+    color: white;
+}
+
+ion-icon.filter_icon.ios.hydrated {
+    float: right;
+    margin-top: -72px;
+    margin-right: 26px;
+    font-size: 24px;
+    color: white;
+}
+
+p.title_ {
+    padding-top: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+// .icon_sets {
+//     display: inline-flex;
+// }
+
+ion-content[_ngcontent-nrg-c1] ion-icon.ios.ion-color.ion-color-primary.hydrated[_ngcontent-nrg-c1] {
+    font-size: 25px;
+    /* margin-top: -33px; */
+    margin-left: 10px;
+}

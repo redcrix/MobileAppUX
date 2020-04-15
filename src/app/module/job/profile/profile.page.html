@@ -1,0 +1,241 @@
+<ion-content class="ion-content">
+
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <div style="position: relative;">
+        <img src="../../../../assets/john-cena-sample-img.jpeg" class="profile_img">
+        <ion-icon name="checkmark-outline" class="check_icon"></ion-icon>
+      </div>
+      </ion-buttons>
+      <div class="text_centr">
+      <!-- <ion-title> -->
+        <p class="name_">Johan Cena</p>
+        <div class="align_loc">
+         
+          <p class="name_location">
+            <ion-icon name="location-outline" class="location_icon"></ion-icon>
+            Phase V, Gurugram
+
+          </p>
+        </div>
+      <!-- </ion-title> -->
+    </div>
+      <ion-buttons slot="end">
+        <ion-icon name="notifications-outline" class="notification_icon" (click)="NotificationArea()"></ion-icon>
+
+
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+
+    <ion-row>
+
+
+      <ion-col >
+        <p class="phone_no">
+          <ion-icon name="phone-portrait-outline" style="    margin-right: 4px;
+          margin-top: 2px;"></ion-icon>
+          9732124753
+        </p>
+
+        <p class="phone_no" style="  margin-bottom: 68px;">
+          <ion-icon name="mail-outline" style="    margin-right: 4px;
+          margin-top: 2px;"></ion-icon>
+          lorem@email.com
+        </p>
+      </ion-col>
+      <ion-col >
+
+        <div class="col_class">
+   
+            <p class="skip__" (click)="SaveAndContinue()">Skip</p>
+        
+      
+            <div class="align_reviews">
+              <p class="point_rate" style="    background: none !important;">4.0</p>
+              <ion-icon name="star-outline" class="star-Icon" style="font-size: 20px;"></ion-icon>
+              <ion-icon name="star-outline" class="star-Icon" style="font-size: 20px;" ></ion-icon>
+              <ion-icon name="star-outline" class="star-Icon" style="font-size: 20px;"></ion-icon>
+              <ion-icon name="star-outline" class="star-Icon" style="font-size: 20px;"></ion-icon>
+              <ion-icon name="star-outline" class="star-Icon" style="font-size: 20px;"></ion-icon>
+              <p class="point_rate">02</p>
+            </div>
+  
+
+          </div>
+      </ion-col>
+
+    </ion-row>
+
+
+    <div class="spacing-extra"></div>
+
+    <div class="gray-bg">
+
+      <div class="info-card progress">
+        <ion-row>
+          <ion-col>
+            Sucess Rate
+          </ion-col>
+          <ion-col>
+            ON-Time
+          </ion-col>
+        </ion-row>
+      </div>
+
+      <div class="info-card viewEarning">
+        <ion-row>
+          <ion-col>
+            <p class="_p_subTitle">
+              My Earnings
+            </p>
+
+            <p class="_p_result">
+              $3000
+            </p>
+          </ion-col>
+          <ion-col>
+            <p class="_p_subTitle">
+              Total Hours
+            </p>
+            <p class="_p_result">
+              40 hrs
+            </p>
+          </ion-col>
+
+        </ion-row>
+
+        <ion-row>
+          <ion-col style="text-align: center;">
+            <ion-button color="primary" class="share_">Share My Profile</ion-button>
+
+          </ion-col>
+        </ion-row>
+
+        </div>
+
+      <div class="set_buttons">
+        <button class="preferences-btn">
+          Job Preferences
+        </button>
+
+        <button class="preferences-btn Non_active">
+          Experience
+        </button>
+      </div>
+
+      <div class="info-card HourlyRate">
+        <p class="p_" color="primary">Hourly Rate</p>
+
+        <p>
+          <button class="edit_btn" color="Edit">Edit</button>
+        </p>
+
+        <ion-row>
+          <ion-col>
+<p class="title__">App Promotion</p>
+<p class="title__">Leaflet Distribution</p>
+          </ion-col>
+          <ion-col>
+            <p class="rate_p__">$ 50/hr</p>
+            <p class="rate_p__">$ 50/hr</p>
+          </ion-col>
+        </ion-row>
+
+      </div>
+
+      <div class="info-card JobLocation">
+        <p class="p_" color="primary">Job Location</p>
+
+        <p class="location_p">MAX 40 Kms</p>
+
+      </div>
+
+
+      <div class="info-card Availability">
+
+
+
+        <div class="category_box">
+          <div class="label_inner">
+
+            <p class="p_" color="primary">Availability</p>
+
+            <div class="inner_input">
+
+
+              <div class="pick_time">
+                <ion-row>
+                  <ion-col>
+                    <p class="job_preference_select">
+               
+                      <span class="label_">Monday</span>
+                    </p>
+                  </ion-col>
+                  <ion-col>
+                    <div class="input_time" (click)="selectTime()">
+                      <p class="to_from_time">
+                        10:00 AM - 06:00 PM
+                      </p>
+                    </div>
+                  </ion-col>
+                </ion-row>
+              </div>
+
+              <div class="pick_time">
+                <ion-row>
+                  <ion-col>
+                    <p class="job_preference_select">
+               
+                      <span class="label_">Tuesday</span>
+                    </p>
+                  </ion-col>
+                  <ion-col>
+                    <div class="input_time" (click)="selectTime()">
+                      <p class="to_from_time">
+                        10:00 AM - 06:00 PM
+                      </p>
+                    </div>
+                  </ion-col>
+                </ion-row>
+              </div>
+
+              <div class="pick_time">
+                <ion-row>
+                  <ion-col>
+                    <p class="job_preference_select">
+               
+                      <span class="label_">Wednesday</span>
+                    </p>
+                  </ion-col>
+                  <ion-col>
+                    <div class="input_time" (click)="selectTime()">
+                      <p class="to_from_time">
+                        10:00 AM - 06:00 PM
+                      </p>
+                    </div>
+                  </ion-col>
+                </ion-row>
+              </div>
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+</ion-content>

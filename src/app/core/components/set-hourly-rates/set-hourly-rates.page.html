@@ -1,0 +1,170 @@
+<ion-content class="ion-content">
+
+
+  <div class="half_bg">
+
+    <div class="gray-bg">
+      <div class="info-card">
+
+        <p class="text_Title" color="primary">Set Your Hourly Rates</p>
+ 
+
+        <!-- // Info  -->
+
+        <ion-row>
+          <ion-col>
+            <ion-row>
+              <ion-col>
+
+                <p class="text_subTitle" color="primary">App Promotion</p>
+ 
+    
+                <ion-row>
+                <ion-col class="col__"  no-padding>
+                  <div class="container_">
+                  <p class="text_title" >Level</p>
+                </div>
+                </ion-col >
+                <ion-col no-padding>
+                  <p class="text_response">Beginner</p>
+                </ion-col>
+              </ion-row>
+    
+              <ion-row>
+                <ion-col no-padding>
+                  
+                  <p class="text_title" >Base Pay</p>
+                </ion-col>
+                <ion-col no-padding>
+                  <p class="text_response">$ 200</p>
+                </ion-col>
+              </ion-row>
+    
+              </ion-col>
+    
+              <!-- <ion-col>
+               </ion-col> -->
+            </ion-row>
+          </ion-col>
+          <ion-col>
+            <div class="fixed_block_right">
+              <img src="../../../../assets/crea/Assi/img/men_fixed.png" class="person_img Copy">
+              <p class="text_" color="primary">50%</p>
+              <img src="../../../../assets/crea/Assi/img/man_animation.png" class="person_img T">
+    
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <p class="price_" color="primary" style="float: right;">$ 50/hr</p>
+            
+   
+
+
+
+        <!-- ================ select-bar -->
+
+        <div class="scroll_select">
+          <p class="start_">
+            $ 30/hr
+          </p>
+          <p class="end_">
+            $ 30/hr
+          </p>
+        </div>
+    <!-- ========== select-on-click -->
+        <ion-row>
+          <ion-col *ngFor="let p of hourlyPrices">
+            <p color="primary" class="p_price">
+              {{p.price}}
+            </p>
+            <p color="primary" class="p_time">
+              {{p.time}}
+            </p>
+          </ion-col>
+        </ion-row>
+
+   <!-- // Info  -->
+
+   <ion-row>
+    <ion-col>
+      <ion-row>
+        <ion-col>
+
+          <p class="text_subTitle" color="primary">Leaflet Distribution</p>
+
+
+          <ion-row>
+          <ion-col class="col__">
+            <p class="text_title" >Level</p>
+          </ion-col>
+          <ion-col>
+            <p class="text_response">Beginner</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <p class="text_title" >Base Pay</p>
+          </ion-col>
+          <ion-col>
+            <p class="text_response">$ 200</p>
+          </ion-col>
+        </ion-row>
+
+        </ion-col>
+
+        <!-- <ion-col>
+         </ion-col> -->
+      </ion-row>
+    </ion-col>
+    <ion-col>
+      <div class="fixed_block_right">
+        <img src="../../../../assets/crea/Assi/img/men_fixed.png" class="person_img Copy">
+        <p class="text_" color="primary">50%</p>
+        <img src="../../../../assets/crea/Assi/img/man_animation.png" class="person_img T">
+
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <p class="price_" color="primary" style="float: right;">$ 50/hr</p>
+      
+
+
+
+
+  <!-- ================ select-bar -->
+
+  <div class="scroll_select">
+    <p class="start_">
+      $ 30/hr
+    </p>
+    <p class="end_">
+      $ 30/hr
+    </p>
+  </div>
+<!-- ========== select-on-click -->
+<ion-row>
+  <ion-col *ngFor="let p of hourlyPrices">
+    <p color="primary" class="p_price">
+      {{p.price}}
+    </p>
+    <p color="primary" class="p_time">
+      {{p.time}}
+    </p>
+  </ion-col>
+</ion-row>
+
+        
+        <ion-row>
+          <ion-col style="text-align:center; margin-bottom: -12px;">
+            <button class="save-btn" ion-button type="submit" block (click)="save()">Save</button>
+
+          </ion-col>
+        </ion-row>
+    
+      </div>
+    </div>
+  </div>
+</ion-content>

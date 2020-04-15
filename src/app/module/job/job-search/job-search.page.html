@@ -1,0 +1,142 @@
+<ion-content class="ion-content">
+
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+
+      <ion-title>Jobs</ion-title>
+      <ion-buttons slot="end">
+        <ion-icon name="notifications-outline" class="notification_icon"></ion-icon>
+
+
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="half_bg">
+  
+    <div class="search_">
+      <ion-row>
+        <ion-col col-md-10 style="padding-left: 15px;">
+         
+         
+              <!-- <ion-searchbar
+[(ngModel)]="myInput"
+[showCancelButton]="shouldShowCancel"
+(ionInput)="onInput($event)"
+(ionCancel)="onCancel($event)"
+style="
+    height: 127px;
+    width: 80%;
+    margin-left: 10px;">
+</ion-searchbar> -->
+
+ <ion-input type="text" placeholder="Add Job Category"  #name class="basic-info-text" style="padding-left: 8px;" >
+         </ion-input>
+        </ion-col>
+        <ion-col col-md-2>
+          <ion-icon color="primary" name="search" class="search_icon"></ion-icon>
+        
+        </ion-col>
+     </ion-row>
+      </div>
+
+ 
+
+<ion-icon name="filter-outline"  class="filter_icon"></ion-icon>
+
+
+<!-- <ion-icon name="notifications-outline" class="filter_icon"></ion-icon> -->
+
+  </div>
+
+    <div class="spacing-extra"></div>
+
+    <div class="gray-bg">
+
+
+
+        <div class="category_box" (click)="goToJobDetail()">
+          <div class="label_inner">
+           <p class="title_">Receiptionist</p>
+           <p class="price">
+             $ 100/Hr
+           </p>
+            <div class="icon_sets">
+              <ion-icon name="location-outline" class="icon_set" color="primary"></ion-icon>
+              <p class="title_sets">Phase V,Nodia(2.6 km)</p>
+              
+            </div>
+            <div class="icon_sets">
+              <ion-icon name="calendar-outline" class="icon_set" color="primary"></ion-icon>
+               <p class="title_sets">01 April 2020</p>
+               
+             </div>
+             <div class="icon_sets">
+              <ion-icon name="timer-outline" class="icon_set" color="primary"></ion-icon>
+               <p class="title_sets">09:00 AM-05:00 PM</p>
+               
+             </div>
+        
+
+          </div>
+        </div>
+
+        <div class="category_box" (click)="goToJobDetail()">
+          <div class="label_inner">
+           <p class="title_">Receiptionist</p>
+           <p class="price">
+             $ 100/Hr
+           </p>
+            <div class="icon_sets">
+              <ion-icon name="location-outline" class="icon_set" color="primary"></ion-icon>
+              <p class="title_sets">Phase V,Nodia(2.6 km)</p>
+              
+            </div>
+            <div class="icon_sets">
+              <ion-icon name="calendar-outline" class="icon_set" color="primary"></ion-icon>
+               <p class="title_sets">01 April 2020</p>
+               
+             </div>
+             <div class="icon_sets">
+              <ion-icon name="timer-outline" class="icon_set" color="primary"></ion-icon>
+               <p class="title_sets">09:00 AM-05:00 PM</p>
+               
+             </div>
+        
+
+          </div>
+        </div>
+
+
+        <div class="category_box" (click)="goToJobDetail()">
+          <div class="label_inner">
+           <p class="title_">Receiptionist</p>
+           <p class="price">
+             $ 100/Hr
+           </p>
+            <div class="icon_sets">
+              <ion-icon name="location-outline" class="icon_set" color="primary"></ion-icon>
+              <p class="title_sets">Phase V,Nodia(2.6 km)</p>
+              
+            </div>
+            <div class="icon_sets">
+              <ion-icon name="calendar-outline" class="icon_set" color="primary"></ion-icon>
+               <p class="title_sets">01 April 2020</p>
+               
+             </div>
+             <div class="icon_sets">
+              <ion-icon name="timer-outline" class="icon_set" color="primary"></ion-icon>
+               <p class="title_sets">09:00 AM-05:00 PM</p>
+               
+             </div>
+        
+
+          </div>
+        </div>
+
+
+    </div>
+
+
+
+</ion-content>
